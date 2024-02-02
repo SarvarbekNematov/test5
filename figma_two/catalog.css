@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1369px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+header span{
+    display: none;
+}
+header h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+header input {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+header input::placeholder {
+    padding-left: 15px;
+}
+
+header button {
+    border: 1px solid #007163;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    margin-top: 35px;
+}
+
+header button:last-child {
+    background: #007163;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 70px;
+}
+
+.menu_div {
+    width: 60%;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.menu_div ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu_div li {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.card_div {
+    width: 350px;
+    height: 490px;
+    border: 1px solid #D6D0C1;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.card_div img {
+    width: 320px;
+    height: 300px;
+    margin: 13px;
+}
+
+.card_div div:first-child {
+    border-bottom: 1px solid #D6D0C1;
+}
+
+.icon_card_div{
+    color: yellow;
+    margin-right: 20px;
+}
+
+.card_div h4{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.card_div_button{
+    border: none;
+    background: #007163;
+    border: 1px solid #007163;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    margin-left: 30px;
+}
+
+.link_div {
+    height: 100px;
+    display: flex;
+}
+
+.link_div div:first-child {
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-left: 100px;
+}
+
+.link_div div:nth-child(2) {
+    background: #007163;
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.link_div div:nth-child(3) {
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.link_div div:last-child {
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.div_footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.div_footer ul {
+    display: flex;
+}
+
+.div_footer li {
+    list-style-type: none;
+    margin: 0 10px;
+}
+
+.div_footer div:nth-child(1) {
+    display: flex;
+    margin-top: -20px;
+}
+
+.div_footer h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.div_footer img {
+    width: 60px;
+    height: 60px;
+}
+
+.cards_div_media{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card_div_p_two{
+    margin-top: 20px; 
+    font-size: 17px; 
+    margin-left: 20px;
+}
+.card_div_btn{
+    display: flex; margin-top: 20px;
+}
+.card_div_btn p{
+    margin-left: 20px; 
+    font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+    .menu_div li{
+        font-size: 30px;
+    }
+    header input{
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+    }
+    header button {
+        width: 200px;
+        height: 50px;
+        font-size: 20   px;
+    }
+    header img{
+        width: 80px;
+        height: 80px;
+    }
+    header h2{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+    .Guitarists_div h1{
+        font-size: 60px;
+        font-weight: 10px;
+    }
+    .cards_div_media{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: space-evenly;
+        align-items: center;
+        grid-gap: 10px;
+        margin: 0 auto;
+    }
+    .card_div{
+        width: 500px;
+        height: 700px;
+    }
+    .card_divvvvv{
+        margin-left: 150px;
+    }
+    .cards_div_media img{
+        width: 94%;
+        height: 450px;
+    }
+    .card_div h4{
+        font-size: 35px;
+    }
+    .card_div_p{
+        font-size: 40px;
+    }
+    .card_div_p_two{
+        font-size: 20px;
+    }
+    .card_div_btn p{
+        font-size: 35px;
+    }
+    .card_div_button{
+        width: 200px;
+        height: 50px;
+    }
+    .link_div div:first-child{
+        width: 40px;
+        height: 50px;
+        margin-left: 200px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+    .link_div div:nth-child(2){
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+    .link_div div:nth-child(3){
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+    .link_div div:nth-child(4){
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+    .div_footer{
+        margin-top: 100px;
+    }
+    .div_footer li{
+        font-size: 20px;
+    }
+    .div_footer img{
+        width: 80px;
+        height: 80px;
+    }
+    .div_footer h2{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:320px) {
+    
+}

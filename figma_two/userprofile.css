@@ -1,0 +1,481 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1369px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+header h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 30px;
+}
+
+header input {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin-top: 35px;
+    margin-left: 6%
+}
+
+header input::placeholder {
+    padding-left: 15px;
+}
+
+header button {
+    border: 1px solid #007163;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    margin-top: 35px;
+    color: #007163;
+    font-size: 20px;
+    margin-left: 23%;
+}
+
+
+.div_image_bottom {
+    width: 250px;
+    height: 30px;
+    background: rgba(0, 113, 99, 0.1);
+    border-radius: 5px;
+    margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.div_image_bottom_mini {
+    width: 25px;
+    height: 25px;
+    background: #007163;
+    border: 1px solid #007163;
+    border-radius: 50%;
+}
+
+.box_div_first_child {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.div_myorders_bottom {
+    display: flex;
+    width: 760px;
+    height: 40px;
+    border: 1px solid #D6D0C1;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.div_myorders_bottom div {
+    width: 30px;
+    height: 30px;
+    background: #00716333;
+    border-radius: 50%;
+    margin-left: -60px;
+    margin-top: 5px;
+}
+
+.div_myorders_bottom_two div {
+    width: 30px;
+    height: 30px;
+    background: #00716333;
+    border-radius: 50%;
+    margin-left: -60px;
+    margin-top: 5px;
+}
+
+.div_myorders_bottom_two {
+    display: flex;
+    width: 760px;
+    height: 40px;
+    border: 1px solid #D6D0C1;
+    justify-content: space-evenly;
+}
+
+.div_myorders_bottom_two div p {
+    margin: 6px 10px;
+}
+
+.div_myorders_bottom div p {
+    margin: 6px 10px;
+}
+
+.div_myorders_p {
+    margin-top: 8px;
+    margin-left: -50px;
+}
+
+.div_myorders_p_two {
+    margin-top: 8px;
+}
+
+.div_myservices_bottom {
+    display: flex;
+    width: 760px;
+    height: 40px;
+    border: 1px solid #D6D0C1;
+    margin-top: 30px;
+}
+
+.div_myservices_bottom div {
+    width: 30px;
+    height: 30px;
+    background: #00716333;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.div_myservices_bottom_two{
+    display: flex;
+    width: 760px;
+    height: 40px;
+    border: 1px solid #D6D0C1;
+}
+.div_myservices_bottom_two div {
+    width: 30px;
+    height: 30px;
+    background: #00716333;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.guitar_p {
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+.guitar_p_two {
+    margin-left: 70px;
+    margin-top: 8px;
+}
+
+.guitar_p_three {
+    margin-left: 50%;
+    margin-top: 8px;
+}
+
+.Purchased_h{
+    margin-top: 30px;
+}
+
+.div_myservices_bottom div p {
+    margin: 6px 10px;
+}
+
+.div_myservices_bottom_two div p {
+    margin: 6px 10px;
+}
+
+.div_footer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    margin-top: 100px;
+}
+
+.div_footer ul {
+    display: flex;
+}
+
+.div_footer li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.div_footer div {
+    display: flex;
+    margin-top: -30px;
+}
+
+.div_footer h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.div_footer img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.link_div {
+    height: 40px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.link_div div:first-child {
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.link_div div:nth-child(2) {
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.link_div div:nth-child(3) {
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.link_div div:last-child {
+    border: 1px solid #007163;
+    background: #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bbox {
+    display: flex;
+}
+
+.card_div {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.card_div img {
+    width: 250px;
+    height: 230px;
+}
+
+.div_image_bottom_mini p {
+    margin: 1px 6px;
+}
+
+.box_mini {
+    margin-left: 60px;
+}
+
+.my_orders_h {
+    margin-top: 48px;
+}
+
+.my_services_h {
+    margin-top: 30px;
+}
+
+@media screen and (max-width:700px) {
+    header img{
+        width: 100px;
+        height: 100px;
+        margin-left: 15%;
+    }
+    header h2{
+        font-size: 30px;
+        margin-top: 45px;
+        margin-left: 8px;
+    }
+    header input{
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    header button{
+        margin-left: 20%;
+        margin-top: 50px;
+        width: 200px;
+        height: 50px;
+        font-size: 23px;
+    }
+    .bbox{
+        flex-direction: column;
+    }
+    .card_div{
+        margin: 0 auto;
+        width: 400px;
+        height: 500px;
+    }
+    .card_div img{
+        width: 100%;
+        height: 400px;
+    }
+    .div_image_bottom{
+        width: 100%;
+        height: 50px;
+    }
+    .div_image_bottom div:first-child{
+        font-size: 25px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .div_image_bottom_mini{
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+    .div_image_bottom_mini p{
+        font-size: 30px;
+        margin: 2px 10px;
+    }
+    .box_div_first_child h1{
+        font-size: 60px;
+        margin-left: 27%;
+        margin-bottom: 5%;
+    }
+    .box_mini{
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    .my_orders_h{
+        font-size: 60px;
+        margin-left: 30%;
+    }
+    .div_myorders_bottom{
+        width: 85%;
+        height: 50px;
+    }
+    .div_myorders_bottom_two{
+        width: 85%;
+        height: 50px;
+    }
+    .div_myorders_bottom div{
+        width: 40px;
+        height: 40px;
+    }
+    .div_myorders_bottom div p{
+        font-size: 25px;
+        margin: 5px 13px;
+    }
+    .div_myorders_bottom_two div{
+        width: 40px;
+        height: 40px;
+    }
+    .div_myorders_bottom_two div p{
+        font-size: 25px;
+        margin: 5px 13px;
+    }
+    .div_myorders_p {
+        font-size: 25px;
+    }
+    .div_myorders_p_two {
+        font-size: 25px;
+    }
+    .my_services_h{
+        font-size: 60px;
+        margin-left: 30%;
+    }
+    .div_myservices_bottom{
+        width: 85%;
+        height: 50px;
+    }
+    .div_myservices_bottom_two{
+        width: 85%;
+        height: 50px;
+    }
+    .div_myservices_bottom div{
+        width: 40px;
+        height: 40px;
+    }
+    .div_myservices_bottom div p{
+        font-size: 25px;
+        margin: 5px 13px;
+    }
+    .div_myservices_bottom_two div{
+        width: 40px;
+        height: 40px;
+    }
+    .div_myservices_bottom_two div p{
+        font-size: 25px;
+        margin: 5px 13px;
+    }
+    .guitar_p {
+        font-size: 25px;
+    }
+    .guitar_p_two {
+        font-size: 25px;
+    }
+    .guitar_p_three {
+        font-size: 25px;
+    }
+
+    .link_div div:first-child {
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+
+    .link_div div:nth-child(2) {
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+
+    .link_div div:nth-child(3) {
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+
+    .link_div div:nth-child(4) {
+        width: 40px;
+        height: 50px;
+        font-size: 30px;
+        padding: 5px 0 0 10px;
+    }
+    .div_footer{
+        margin-top: 100px;
+    }
+    .div_footer li{
+        font-size: 25px;
+        margin: 30px;
+    }
+    .div_footer img{
+        width: 80px;
+        height: 80px;
+        margin-top: 30px;
+    }
+    .div_footer h2{
+        margin-top: 40px;
+    }
+}

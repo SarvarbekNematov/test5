@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1369px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header img {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+header h2 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+header div{
+    display: flex;
+}
+
+header input {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    margin-top: 35px;
+}
+
+
+header span{
+    display: none;
+}
+
+header input::placeholder{
+    padding-left: 15px;
+}
+
+header button {
+    border: 1px solid #007163;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    background: #fff;
+    margin-top: 35px;
+}
+
+header button:last-child {
+    background: #007163;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.session_artist_div h1 {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.session_artist_div h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.session_artist_div button {
+    background: rgba(166, 124, 82, 0.1);
+    border: 1px solid #A67C52;
+    color: #A67C52;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 200px;
+    height: 40px;
+    margin: 0 30px;
+    margin-top: 40px;
+}
+
+.session_artist_div button:first-child {
+    margin-left: 450px;
+}
+
+.session_artist_div button:last-child {
+    background: rgba(0, 113, 99, 0.1);
+    border: 1px solid #007163;
+    border-radius: 5px;
+    color: #007163;
+}
+
+.img_display_div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img_display_div img{
+    width: 150px;
+    height: 250px;
+    margin:20px;
+    margin-top: 100px;
+}
+
+.Social_h 
+{
+    font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 53px;
+color: #000000;
+}
+.social_div div:first-child{
+    text-align: center;
+    margin-top: 100px;
+}
+.social_div i{
+    background: #007163;
+    margin: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.social_div div:last-child{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.social_div ul{
+    display: flex;
+}
+.social_div li{
+    list-style: none;
+    margin: 0 10px;
+}
+.social_div div:nth-child(2){
+    display: flex;
+    margin-top: -20px;
+}
+.social_div div:nth-child(2) h2{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+.social_div div:nth-child(2) img{
+    width: 60px;
+    height: 60px;
+}
+.link_div{
+    width: 1369px;
+    height: 60px;
+    display: flex;
+}
+
+.link_div div:first-child{
+background: #007163;
+border: 1px solid #007163;
+border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-left: 200px;
+}
+.link_div div:nth-child(2){
+
+border: 1px solid #007163;
+border-radius: 2px;
+width: 30px;
+height: 30px;
+margin: 5px;
+}
+.link_div div:nth-child(3){
+
+    border: 1px solid #007163;
+    border-radius: 2px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+.link_div div:last-child{
+    border: 1px solid #007163;
+border-radius: 2px;
+width: 30px;
+height: 30px;
+margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+.footer_div{
+    margin-top: 50px;
+}
+
+
+/*
+    ///
+    RESPONSIVE 
+    ///
+*/
+
+@media screen and (max-width: 700px) {
+    .img_display_div{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+        margin: 0 auto;
+    }
+    .img_display_div img{
+        width: 350px;
+        height: 500px;
+        margin: 50px;
+    }
+    .session_artist_div button{
+        width: 300px;
+        height: 60px;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    .session_artist_div button:first-child{
+        margin-left: 350px;
+    }
+    .session_artist_div h1{
+        font-size: 80px;
+    line-height: 100px;
+    }
+    .session_artist_div h4{
+        font-size: 50px;
+    }
+    header input{
+        width: 350px;
+        height: 60px;
+        font-size: 20px;
+    }
+    header img{
+        width: 100px;
+        height: 100px;
+    }
+    header h2{
+        font-size: 40px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    header div{
+        display: flex;
+    }
+    header button{
+        width: 200px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .Social_h{
+        font-size: 100px;
+    }
+    .social_div i{
+        font-size: 50px;
+        width: 80px;
+        height: 80px;
+        padding: 15px;
+        margin-top: 80px;
+    }
+    .link_div div:first-child{
+        width: 40px;
+        height: 60px;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .link_div div:nth-child(2){
+        width: 40px;
+        height: 60px;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .link_div div:nth-child(3){
+        width: 40px;
+        height: 60px;
+        font-size: 30px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    .link_div div:nth-child(4){
+        width: 40px;
+        height: 60px;
+        font-size: 30px;
+        padding-top: 10px;
+    }
+    .footer_div{
+        margin-top: 100px;
+    }
+    .footer_div li{
+        font-size: 20px;
+    }
+    .footer_div img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 333px) {
+    .media_button_none{
+        display: none;
+    }
+    header{
+        justify-content: space-around;
+    }
+    header span{
+        display: block;
+        font-size: 70px;
+        margin-top: 40px;
+    }
+    header input{
+        display: none;
+    }
+    header img{
+        width: 120px;
+        height: 120px;
+        margin-top: 40px;
+    }
+    header h2{
+        font-size: 70px;
+        line-height: 50px;
+    }
+    .header_span_one{
+        margin-top: 60px;
+        font-size: 80px;
+        font-weight: 1px;
+    }
+    .img_display_div{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+        margin: 0 auto;
+    }
+    .div_span_header{
+        position: relative;
+    }
+    .header_span_two{
+        position: absolute;
+        left: -150px;
+    }
+    #img_one{
+        margin-left: 120px;
+    }
+    #img_two{
+        margin-left: 10px;
+    }
+    .img_display_div img{
+        width: 450px;
+        height: 700px;
+    }
+    .session_artist_div h1{
+        font-size: 100px;
+        line-height: 150px;
+    }
+    .session_artist_div h4{
+        font-size: 75px;
+        margin-top: 50px;
+    }
+    .session_artist_div button{
+        width: 450px;
+        height: 150px;
+        font-size: 50px;
+    }
+    .session_artist_div div{
+        display: flex;
+    }
+    .session_artist_div button:first-child{
+        margin-left: 120px;
+    }
+    .session_artist_div button:nth-child(2){
+        margin-left: 100px;
+    }
+    .social_div i{
+        width: 100px;
+        height: 100px;
+        font-size: 60px;
+        padding: 20px;
+    }
+    .link_div div:first-child{
+        width: 80px;
+        height: 120px;
+        font-size: 80px;
+    }
+    .link_div div:nth-child(2){
+        width: 80px;
+        height: 120px;
+        font-size: 80px;
+    }
+    .link_div div:nth-child(3){
+        width: 80px;
+        height: 120px;
+        font-size: 80px;
+    }
+    .link_div div:nth-child(4){
+        width: 80px;
+        height: 120px;
+        font-size: 80px;
+    }
+    .footer_div{
+        flex-direction: column;
+    }
+    .ul_one{
+        margin: 0 auto;
+    }
+    .ul_one li{
+        margin: 40px;
+        font-size: 60px;
+        margin-top: 500px;
+    }
+    .img_div{
+        margin: 0 auto;
+    }
+    #img{
+        width: 180px;
+        height: 180px;
+        margin-top: 100px;
+    }
+    #img_div_h{
+        font-size: 100px;
+        margin-top: 100px;
+        line-height: 80px;
+    }
+    .ul_two{
+        margin: 0 auto;
+    }
+    .ul_two li{
+        margin: 40px;
+        font-size: 60px;
+        margin-top: 100px;
+    }
+    @media screen and (max-width:281px) {
+        header{
+            justify-content: space-evenly;            
+        }
+        .div_img_header{
+            position: relative;
+        }
+        .header_span_one{
+            position: relative;
+        }
+        .search_i{
+            position: absolute;
+            left: -100px;
+        }
+        .div_img_header h2{
+            line-height: 70px;
+            margin-top: 30px;
+        }
+        header img{
+            position: absolute;
+            left: -110px;
+        }
+        .session_artist_div h1{
+            font-size: 80px;
+            margin-left: -150px;
+        }
+        .session_artist_div h4{
+            font-size: 60px;
+            margin-left: -150px;
+        }
+        .session_artist_div button{
+            width: 400px;
+            height: 100px;
+        }
+        .img_display_div  img{
+            width: 400px;
+        }
+        #img_two{
+            margin-left: -40px;
+        }
+        .Social_h {
+            margin-left: -150px;
+        }
+        #i_first{
+            margin-left: -150px;
+        }
+        .ul_one li{
+            font-size: 40px;
+        }
+        .ul_two li{
+            font-size: 40px;
+        }
+        #li_one{
+            margin-left: -100px;
+        }
+        #img{
+            margin-left: -100px;
+        }
+    }
+}
